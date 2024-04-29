@@ -1,0 +1,13 @@
+import random
+choice=''
+print ("welcome to coin flip sim") 
+for count in range(100000**900000):
+    loaded_die=("Heads", "Tails")
+    roll= random.choice(loaded_die)
+    choice = input('do you want to flip a coin [Y/N]:')
+    if choice == 'N':
+        print("thank you for yousing coin flip sim have a nice day :)")
+        break
+        choice = ' '
+    if choice == 'Y':
+        print(roll)
